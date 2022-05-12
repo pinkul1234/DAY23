@@ -19,8 +19,8 @@ public class ValidUserName {
         boolean isValidFirstName = ValidUserName.validateFirstName().validateName("Pinkul");
         System.out.println(isValidFirstName);
 
-        boolean isValidProductName = ValidUserName.validateLastName().validateName("Patra");
-        System.out.println(isValidProductName);
+        boolean isValidLastName = ValidUserName.validateLastName().validateName("Patra");
+        System.out.println(isValidLastName);
     }
     
 }
